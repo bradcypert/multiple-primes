@@ -3,7 +3,7 @@
             [multiple-primes.modules.table :refer :all]))
 
 ;;I normally wouldn't monkey with testing private functions
-;;however, the core logic comes is private, with the public
+;;however, the core logic is private, with the public
 ;;interface being used to print the output
 (def private-build-header #'multiple-primes.modules.table/build-header)
 (def private-build-row #'multiple-primes.modules.table/build-row)
