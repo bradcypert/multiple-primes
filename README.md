@@ -1,36 +1,35 @@
 # multiple-primes
 
-FIXME: description
+A sample app demonstrating getting N prime numbers, and generating a multiplication table of them.
+
+Created with Clojure and Love.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+* Git Clone
 
 ## Usage
 
-FIXME: explanation
+Generate a primes multiplication table (default 10)
 
-    $ java -jar multiple-primes-0.1.0-standalone.jar [args]
+    $ java -jar multiple-primes-0.1.0-standalone.jar
+
+Generate a prime number multiplication table given n primes.
+
+    $ java -jar multiple-primes-0.1.0-standalone.jar -n {your-number-here}
+    
+Using Leinengen? All source and docs are available via Clojure REPL.
+
+    $ lein repl
+    $ (source isValidNumber?)
 
 ## Options
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+-n number
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 Brad Cypert
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
